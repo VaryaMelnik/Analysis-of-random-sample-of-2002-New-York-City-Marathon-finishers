@@ -23,7 +23,4 @@ females$age_cut <- cut(as.numeric(females$age),
                      labels = c("5-25", "25-30", "30-35", "35-40", "40-50", "50-60", "60-70", "70-81"), right = FALSE)
 boxplot(time~age_cut, females, main="Time to finish for different age groups of women")
 
-time = sort(nym.2002$time)
-min(time) / median(time)
-max(time) / median(time)
 
